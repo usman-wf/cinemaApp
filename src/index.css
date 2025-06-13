@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue';
+  padding: 40px;
+  background-color: #151515;
+  color: aliceblue;
+}
+
+h2{
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+}
