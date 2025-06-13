@@ -1,18 +1,16 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@import "tailwindcss";
+
+/* Custom utility classes */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-body{
-  font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue';
-  padding: 40px;
-  background-color: #151515;
-  color: aliceblue;
-}
-
-h2{
-  font-size: 48px;
-  margin-bottom: 20px;
-  text-align: center;
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
